@@ -62,7 +62,7 @@ def save_data():
 
 # Home Function
 def Home():
-    print("\t\t\t\t\t WELCOME TO HOTEL ANCASA\n")
+    print("\t\t\t\t\t WELCOME TO THE ROYAL MANSION\n")
     print("\t\t\t 1 Booking\n")
     print("\t\t\t 2 Rooms Info\n")
     print("\t\t\t 3 Room Service(Menu Card)\n")
@@ -279,7 +279,7 @@ def restaurant():
 		if custid[n]==ph and p[n]==0:
 			f=1
 			print("-------------------------------------------------------------------------")
-			print("						 Hotel AnCasa")
+			print("				 Hotel THE ROYAL MANSION")
 			print("-------------------------------------------------------------------------")
 			print("						 Menu Card")
 			print("-------------------------------------------------------------------------")
@@ -411,13 +411,13 @@ def Payment():
 				print(" 4- Cash")
 				x=int(input("-> "))
 				print("\n Amount: ",(price[n]*day[n])+rc[n])
-				print("\n		 Pay For AnCasa")
+				print("\n	Pay For THE ROYAL MANSION")
 				print(" (y/n)")
 				ch=str(input("->"))
 				
 				if ch=='y' or ch=='Y':
 					print("\n\n --------------------------------")
-					print("		 Hotel AnCasa")
+					print("		Hotel THE ROYAL MANSION")
 					print(" --------------------------------")
 					print("			 Bill")
 					print(" --------------------------------")
